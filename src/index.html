@@ -4,15 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  <title>Photography Exhibition</title>
+  <title>Photography Exhibit</title>
 </head>
-<body>
-  <main class="main-container">
-    <article class="card"></article>
-    <article class="card"></article>
-    <article class="card"></article>
-    
+<body  class="bg-lime-200">
+  <main class="p-10">
+    <h1 class="text-center text-4xl font-roboto font-bold text-lime-800 tracking-widest">Photography Exhibit</h1>
+     <div class="main-container grid grid-cols-1 justify-items-center gap-5 lg:grid-cols-3 p-8">
+    <article class="card bg-lime-300 flex flex-col items-center p-6 rounded-xl shadow-md">
+        <div class="mb-2"><img src="./assets/images/alps.jpg" alt="alps" class="h-62"></div>
+        <div class="mb-7">
+            <h3 class="subheading font-semibold mb-4 text-lime-900 font-roboto text-lg">Colosseum, Rome</h3>
+            <p class="description text-lime-900 font-roboto">There is so much history and beauty. The light hits it just right.</p>
+        </div>
+        <div class="space-x-20">
+            <button class="bg-rose-600 px-8 py-1 rounded-md hover:bg-rose-700 shadow-sm text-gray-800">Like</button>
+            <a href="#" class="bg-amber-100 px-3 py-1 rounded-md hover:bg-blue-200 text-gray-800">View Details</a>
+        </div>
+    </article>
 
+    <article class="card bg-lime-300 flex flex-col items-center p-6 rounded-xl shadow-md">
+        <div class="mb-2"><img src="./assets/images/colosseo.jpg" alt="colosseo" class="h-62"></div>
+        <div class="mb-7">
+            <h3 class="subheading font-semibold mb-4 text-lime-900 font-roboto text-lg">The Alps</h3>
+            <p class="description text-lime-900 font-roboto">The mountains go on forever and the view is breathtaking.</p>
+        </div>
+        <div class="space-x-20">
+            <button class="bg-rose-600 px-8 py-1 rounded-md hover:bg-rose-700 shadow-sm text-gray-800">Like</button>
+            <a href="#" class="bg-amber-100 px-3 py-1 rounded-md hover:bg-blue-200 text-gray-800">View Details</a>
+        </div>
+    </article>
+
+    <article class="card bg-lime-300 flex flex-col items-center p-6 rounded-xl shadow-md">
+        <div class="mb-2"><img src="./assets/images/sea.jpg" alt="seo" class="h-62"></div>
+        <div class="mb-7">
+            <h3 class="subheading font-semibold mb-4 text-lime-900 font-roboto text-lg">Seascape</h3>
+            <p class="description text-lime-900 font-roboto">The water was still, the air was cool and the feeling is pure peace.</p>
+        </div>
+        <div class="space-x-20">
+            <button class="bg-rose-600 px-8 py-1 rounded-md hover:bg-rose-700 shadow-sm text-gray-800">Like</button>
+            <a href="#" class="bg-amber-100 px-3 py-1 rounded-md hover:bg-blue-200 text-gray-800">View Details</a>
+        </div>
+    </article>
+    
+</div>
 
   </main>
 </body>
