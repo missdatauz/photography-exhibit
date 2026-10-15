@@ -20,6 +20,32 @@ This is a responsive potography exhibit project built purely with HTML and Tailw
 * **HTML5:** Semantic layout using structural elements.
 * **Tailwind CSS:** Used utility classes for layout (Flexbox/Grid), custom colors, padding/margin, and responsive break-points (`lg:`).
 
+## Local Setup & Run
+to run this project locally, follow these steps
+
+1. **Clone the repsitory**
+```bash
+git clone https://github.com/missdatauz/photography-exhibit.git
+```
+2. **Navigate to the project directory:**
+ ```bash
+cd photography-exhibit
+```
+
+4. **Install dependencies:**
+```bash
+npm install
+```
+
+5. **Run Tailwind CSS watch mode:**
+ ```bash
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+```
+
+6. **Open the project:**
+Open index.html in your browser or use the VS Code Live Server extension.
+
+
 ## User Stories:
 <details>
 <summary><b>Click to view  all User Stories and requirements</b></summary>
@@ -63,17 +89,6 @@ This is a responsive potography exhibit project built purely with HTML and Tailw
 </details>
 
 ## Project preview
-<table align="center">
-  <tr>
-    <td align="center" valign="top" width="65%">
-    <h4>Desktop Version<h4>
-    ![alt text](image.png)
-    <img width="100%" height="768" alt="image" src="https://github.com/user-attachments/assets/4e5b1f41-e5c6-4adc-9ad7-c91be1d7f408" />
-    </td>
-      <td align="center" valign="top" width="35%">
-       <h4>Mobile Version</h4> 
-        <img width="100%" height="1334" alt="127 0 0 1_5501_src_index html(iPhone SE) (2)" src="https://github.com/user-attachments/assets/89a0bc4a-67c4-46a1-9fb2-b708b95c53cf" />
-        <img width="100%" height="1334" alt="127 0 0 1_5501_src_index html(iPhone SE) (3)" src="https://github.com/user-attachments/assets/a07386b7-2b21-4b44-a6e2-16bd847b0582" />
-      </td>
-  </tr>
-</table>
+| Desktop Version | Mobile Version |
+| :---: | :---: |
+| ![Desctop Preview](./src/assets/preview.png/preview.png.png) | ![Mobile Preview](./src/assets/preview.png/preview.png2.png)
